@@ -42,9 +42,9 @@ Projekt jest na celu udoskonalenie świeższych zmian wyglądu gry
 
 ### Zrzut Ekranu
 
-![App Screenshot]()
+![App Screenshot](update.png)
 
 ### Live
 
-Link Gry [:link: footballtopmanager](https://footballtopmanager.com/)</a>
+Link Gry [:link:Footballtopmanager](https://footballtopmanager.com/)</a>
 
