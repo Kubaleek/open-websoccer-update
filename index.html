@@ -51,10 +51,10 @@
                   U nas masz taką możliwość. Dołącz do społeczności trenerów i graj za darmo w menadżera Footballtop.
                 </p>
                 <div class="d-flex justify-content-center">
-                  <a type="button" class="btn-starts mb-3 me-3 w-100 text-decoration-none">
+                  <a type="button" href="" class="btn-starts mb-3 me-3 w-100 text-decoration-none">
                     Graj
                   </a>
-                  <a type="button" class="btn-starts w-100 text-decoration-none">
+                  <a type="button" href="" class="btn-starts w-100 text-decoration-none">
                     Discord
                   </a>
                 </div>
@@ -184,9 +184,36 @@
         </div>
       </section>
     </main>
-    <footer class="footer py-4 px-2">
+    <footer class="footer mt-5 px-2">
       <div class="container">
-
+        <div class="row gx-0 gx-lg-5 mb-3">
+          <div class="col-lg-6">
+            <div class="content">
+              <h5 class="title">FOOTBALLTOP</h5>
+              <p class="text opacity-75">
+                Lubisz piłkę nożną i od zawsze marzyłeś aby poprowadzić swój ulubiony klub w lidze i pucharach? U nas masz taką możliwość. Dołącz do społeczności trenerów i graj za darmo w menadżera Footballtop.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <a type="button" href="" class="btn-starts mt-1 mb-3 w-100 text-decoration-none">
+                Graj
+              </a>
+              <a type="button" href="" class="btn-starts mb-1 w-100 text-decoration-none">
+                Discord
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="hr w-100 mx-auto opacity-75">
+        <div class="d-flex flex-column justify-content-between mt-4 mb-4 text-start text-md-end">
+          <p>© <span id="year"></span> <span class="text-uppercase fw-bolder">FOOTBALLTOPMANAGER</span> Wszelkie prawa zastrzeżone.</p>
+        </div>
       </div>
     </footer>
+    <script>
+      let date = new Date();
+      year.innerHTML = date.getFullYear();
+    </script>
 </body>
