@@ -51,12 +51,12 @@
                   U nas masz taką możliwość. Dołącz do społeczności trenerów i graj za darmo w menadżera Footballtop.
                 </p>
                 <div class="d-flex justify-content-center">
-                  <button type="button" class="btn-starts mb-3 me-3 w-100">
+                  <a type="button" href="" class="btn-starts mb-3 me-3 w-100 text-decoration-none">
                     Graj
-                  </button>
-                  <button type="button" class="btn-starts w-100">
+                  </a>
+                  <a type="button" href="" class="btn-starts w-100 text-decoration-none">
                     Discord
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -113,7 +113,7 @@
                   <i class="bi bi-building-fill"></i>
                 </div>
                 <div class="content mt-4 px-3 pb-3">
-                  <h2 class="subtitle text-center">Obiekty klubowe</h2>
+                  <h3 class="subtitle text-center">Obiekty klubowe</h3>
                   <hr class="line w-25 mx-auto">
                   <p class="subtext">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum at debitis rem voluptatem assumenda quis, 
@@ -144,10 +144,10 @@
           </div>
         </div>
       </section>
-      <section class="register d-flex justify-content-center align-items-center mt-5">
+      <section class="register d-flex justify-content-center align-items-center mt-4" id="register">
         <div class="container d-flex justify-content-center align-items-center">
-          <div class="form-register px-4 py-4 mt-5">
-            <h3 class="form-title mb-3">Dołącz do FootballTop</h3>
+          <div class="form-register px-4 py-4 mt-5 mb-5">
+            <h4 class="form-title mb-3">Dołącz do FootballTop</h4>
             <hr class="line w-25 mx-auto">
             <form method="post">
               <div class="form-group mb-3">
@@ -184,7 +184,36 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-
+    <footer class="footer mt-5 px-2">
+      <div class="container">
+        <div class="row gx-0 gx-lg-5 mb-3">
+          <div class="col-lg-6">
+            <div class="content">
+              <h5 class="title">FOOTBALLTOP</h5>
+              <p class="text opacity-75">
+                Lubisz piłkę nożną i od zawsze marzyłeś aby poprowadzić swój ulubiony klub w lidze i pucharach? U nas masz taką możliwość. Dołącz do społeczności trenerów i graj za darmo w menadżera Footballtop.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+              <a type="button" href="" class="btn-starts mt-1 mb-3 w-100 text-decoration-none">
+                Graj
+              </a>
+              <a type="button" href="" class="btn-starts mb-1 w-100 text-decoration-none">
+                Discord
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="hr w-100 mx-auto opacity-75">
+        <div class="d-flex flex-column justify-content-between mt-4 mb-4 text-start text-md-end">
+          <p>© <span id="year"></span> <span class="text-uppercase fw-bolder">FOOTBALLTOPMANAGER</span> Wszelkie prawa zastrzeżone.</p>
+        </div>
+      </div>
     </footer>
+    <script>
+      let date = new Date();
+      year.innerHTML = date.getFullYear();
+    </script>
 </body>
