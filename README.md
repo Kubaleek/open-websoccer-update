@@ -46,5 +46,5 @@ Projekt jest na celu udoskonalenie świeższych zmian wyglądu gry
 
 ### Live
 
-Link Gry [:link: PTE Częstochowa](update.png)</a>
+Link Gry [:link: Footballtopmanager]()</a>
 
