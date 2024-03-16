@@ -46,5 +46,5 @@ Projekt jest na celu udoskonalenie świeższych zmian wyglądu gry
 
 ### Live
 
-Link Gry [:link: Footballtopmanager]()</a>
+Link Gry [:link: footballtopmanager](https://footballtopmanager.com/)</a>
 
