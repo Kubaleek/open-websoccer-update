@@ -40,6 +40,10 @@ Projekt jest na celu udoskonalenie świeższych zmian wyglądu gry
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)   
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+### Zrzut Ekranu
+
+![App Screenshot](Zrzut Ekranu.png)
+
 ### Live
 
 Link Gry [:link: PTE Częstochowa](https://footballtopmanager.com/)</a>
