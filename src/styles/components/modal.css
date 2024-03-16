@@ -1,0 +1,13 @@
+/* Styl dla modalu */
+.modal {
+    backdrop-filter: blur(20px);
+}
+.modal-dialog {
+
+}
+
+.modal-content {
+    border-radius: 12px;
+    border: none;
+    border-bottom: 12px solid #4e6da8;
+}
