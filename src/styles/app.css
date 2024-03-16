@@ -14,7 +14,7 @@ li {
 }
 body,
 html {
-  background: #2c323b !important;
+  background: #2e3744 !important;
 }
 img {
   max-width: 100%;
@@ -31,5 +31,5 @@ h6 {
 }
 
 .header {
-
+  background: #576a85;
 }
