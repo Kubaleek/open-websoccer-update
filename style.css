@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: "Montserrat";
 }
-
 a {
   text-decoration: none;
 }
@@ -133,7 +132,6 @@ h6 {
   height: 100%;
   background: #d8dae4;
   box-shadow: 8px 8px 75px 60px #d8dae4;
-  transform: translateX(0%) rotate(0deg);
   opacity: 0.75;
   border-radius: 100%;
   z-index: -2;
@@ -142,7 +140,6 @@ h6 {
 @media (max-width: 768px) {
   .hero::before {
     background: none;
-    transform: translateX(0%) translateY(0%) rotate(0deg);
   }
 }
 @media (max-width: 768px) {
@@ -213,7 +210,10 @@ h6 {
   transition: 0.3s ease;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 .hero .btn-starts::before {
   content: "";
@@ -252,7 +252,7 @@ h6 {
   background-color: #d8dae4;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
-.hero .btn-starts:hover {
+.hero .btn-starts:hover{
   color: #222831;
   box-shadow: inset 0px 0px 25px #00000023;
 }
@@ -355,9 +355,8 @@ h6 {
 /* Sekcja register */
 .register {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   position: relative;
-  overflow: hidden;
   background: url(src/img/home_bg22.jpg);
   background-size: cover;
   z-index: 2;
@@ -398,6 +397,7 @@ h6 {
   backdrop-filter: blur(15px);
   z-index: 0;
   transform: translateX(-50%) rotate(0deg);
+  box-shadow: inset 0px -80px 75px -30px #222831;
 }
 
 .form-register {
@@ -463,7 +463,7 @@ h6 {
   overflow: hidden;
   background-color: transparent;
   color: #e9ecf8bd;
-  transition: 0.3s ease;
+  transition: .4s ease-in-out;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
@@ -473,7 +473,8 @@ h6 {
   border: 3px solid #e9ecf8;
 }
 /* Stopek */
-
 .footer {
-
+  position: relative;
+  background: #222831;
+  z-index: 2;
 }
