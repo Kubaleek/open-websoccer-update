@@ -42,7 +42,7 @@ Projekt jest na celu udoskonalenie świeższych zmian wyglądu gry
 
 ### Zrzut Ekranu
 
-(![App Screenshot](repository-open-graph-template.png)
+![App Screenshot]()
 
 ### Live
 
