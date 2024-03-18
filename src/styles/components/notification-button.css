@@ -1,0 +1,38 @@
+.input-nofi {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  background-color: #2d333e;
+  padding-right: 40px;
+  color: #ffffff77;
+}
+.btn-nofi {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #2d333e;
+  background-color: transparent;
+  pointer-events: painted;
+}
+.btn-nofi i {
+  color: #fff;
+}
+.input-nofi:hover,
+.btn-nofi:hover ~ .input-nofi {
+  border-bottom: 4px solid #4e6da8;
+  color: #fff;
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
