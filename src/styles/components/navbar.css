@@ -1,0 +1,88 @@
+.header {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  z-index: 1;
+}
+.navbar-top .title-header {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  background: url(../../img/home_bg22.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 0;
+}
+@media (min-width: 1200px) {
+  .title-header {
+    background-attachment: fixed;
+  }
+}
+.navbar-bottom {
+  position: relative;
+}
+.header nav .navbar-toggler {
+  color: #2d333e;
+  border-color: rgb(45, 51, 62);
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(45, 51, 62)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.header nav .navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+.header nav .navbar-brand {
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2d333e;
+}
+@media (max-width: 768px) {
+  .header nav .navbar-brand {
+    font-size: 16px;
+  }
+}
+.header nav .nav-link {
+  font-size: 16px;
+  position: relative;
+  color: #2d333e;
+}
+.header nav .nav-link::before,
+.header nav .nav-link::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+.header nav .nav-link::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 2px solid #2d333e;
+  border-right: 2px solid #2d333e;
+  transform: translate(-100%, 50%);
+}
+.header nav .nav-link:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 2px solid #2d333e;
+  border-left: 2px solid #2d333e;
+  transform: translate(100%, -50%);
+}
+.header nav .nav-link:hover:before,
+.header nav .nav-link:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .header nav .nav-link:hover:before,
+  .header nav .nav-link:hover:after {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+}
