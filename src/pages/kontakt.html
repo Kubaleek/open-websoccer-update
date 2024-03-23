@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/kontakt.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="header"> 
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container-md">
+          <a href="../../index.html" class="navbar-brand">FOOTBALLTOPMANAGER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="ms-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item me-3">
+                  <a href="../../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a href="" class="nav-link">Polityka Prywatności</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a href="" class="nav-link">Konto</a>
+                </li>
+                <li class="nav-item">
+                  <a href="kontakt.html" class="nav-link">Kontakt</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="hero d-flex justify-content-center align-items-center mb-4" id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="content">
+                <h1 class="title text-center">Kontakt z Administracją</h1>
+                <hr class="line w-25 mx-auto">
+                <p class="text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum at debitis rem voluptatem assumenda quis, 
+                  sapiente eius voluptate perferendis deserunt nisi tempore quos dicta, possimus sequi. Quam nisi vero tempora.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="hero-image d-none d-lg-block">
+                <img src="../img/players.png" alt="players" class="img-fluid banner">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact d-flex justify-content-center align-items-center my-5" id="register">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="form-contact px-4 py-4 my-5">
+            <div class="circle d-none d-md-block"></div>
+            <div class="circle d-none d-md-block"></div>
+            <h2 class="form-title mb-3">Skontaktuj się z Administracją</h4>
+            <hr class="line w-25 mx-auto">
+            <form method="post">
+              <div class="form-group mb-3">
+                <label class="form-label" for="nick">Nick</label>
+                <input type="text" id="nick" class="form-control" required autocomplete="off" placeholder="Nick">
+              </div>
+              <div class="form-group mb-3">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control" required autocomplete="off" placeholder="Email">
+              </div>
+              <div class="form-group mb-4">
+                <label class="form-label" for="message">Wiadomość</label>
+                <textarea name="message" class="form-control" id="message" cols="30" rows="10" autocomplete="off" required placeholder="Wiadomość"></textarea>
+              </div>
+              <button type="button" class="btn btr w-100">Wyślij Wiadomość</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
