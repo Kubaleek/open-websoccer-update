@@ -2,7 +2,6 @@
 @import url(components/navbar-button.css);
 @import url(components/navbar.css);
 @import url(components/main.css);
-@import url(login.css);
 /* Globalne Atrybuty */
 * {
   margin: 0;
