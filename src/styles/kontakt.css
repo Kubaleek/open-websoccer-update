@@ -210,8 +210,8 @@ h6 {
   height: 100%;
 }
 .line {
-    color: #d8dae4;
-    opacity: 0.5;
+  color: #d8dae4;
+  opacity: 0.5;
 }
 .form-contact {
   background: linear-gradient(#222831, #36404ea1);
@@ -222,19 +222,19 @@ h6 {
   border-radius: 20px;
 }
 .form-contact .circle {
-    width: 400px;
-    height: 5px;
-    background: #d8dae4;
-    box-shadow: 0 0 40px #e9ecf8;
-    position: absolute;
+  width: 400px;
+  height: 5px;
+  background: #d8dae4;
+  box-shadow: 0 0 40px #e9ecf8;
+  position: absolute;
 }
 .form-contact .circle:nth-child(1) {
-    top: -35px;
-    left: 35px;
-  }
-.form-contact  .circle:nth-child(2) {
-    bottom: -35px;
-    right: 35px;
+  top: -35px;
+  left: 35px;
+}
+.form-contact .circle:nth-child(2) {
+  bottom: -35px;
+  right: 35px;
 }
 .form-contact .form-title {
   font-weight: 700;
