@@ -219,10 +219,9 @@ h6 {
   border-radius: 20px;
 }
 .rules-box .circle {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background: #d8dae4;
-  border: 2px solid #e9ecf827;
   box-shadow: 0 0 40px #e9ecf8;
   border-radius: 50%;
   position: absolute;
