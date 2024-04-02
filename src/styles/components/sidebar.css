@@ -1,7 +1,135 @@
 .sidebar {
-    background: #323b49;
-    position: relative;
-    top: 120px;
-    height: 800px;
-    border-radius: 0px 150px 0px 0px;
+  background: #323b49;
+  position: relative;
+  border: 2px solid #c3c6cfa4;
+  height: 100%;
+}
+.sidebar-logo img  {
+  position: relative;
+  top: -70px;
+  background: #222831;
+  width: 200px;
+  margin: 0 auto;
+  height: 200px;
+  border: 2px solid #e9ecf8;
+  border-radius: 50%;
+}
+.sidebar-player {
+  position: relative;
+  top: -50px;
+}
+.sidebar-nick {
+  font-size: 24px;
+  color: #e9ecf8;
+}
+
+.sidebar-budget {
+  font-size: 24px;
+  color: #e9ecf8;
+}
+
+.sidebar-coins {
+  font-size: 24px;
+  color: #e9ecf8;
+}
+
+.sidebar-player span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #c3c6cf;
+  text-transform: uppercase;
+}
+
+.sidebar-line {
+  position: relative;
+  margin: 0 auto;
+  height: 3px;
+  width: 25%;
+  background: #e9ecf8;
+}
+.sidebar-icon {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  color: #c3c6cf;
+}
+.sidebar-link {
+  font-size: 16px;
+  position: relative;
+  padding: 12px;
+  font-weight: bold;
+  display: flex;
+  letter-spacing: 0.1rem;
+  justify-content: center;
+  transition: 0.6s cubic-bezier(0.215, 0.610, 0.355, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e9ecf8c0;
+}
+.sidebar-link::before,
+.sidebar-link::after {
+  content: "";
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+  opacity: 0;
+}
+.sidebar-link::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid #e9ecf8;
+  border-right: 3px solid #dfe2ee;
+  transform: translate(-100%, 50%);
+}
+.sidebar-link::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #e9ecf8;
+  border-left: 3px solid #dfe2ee;
+  transform: translate(100%, -50%);
+}
+.sidebar-link:hover .sidebar-icon {
+  color: #e9ecf8;
+  transform: scale(1.25);
+}
+.sidebar-link:hover {
+  color: #e9ecf8;
+}
+.sidebar-link:hover:before,
+.sidebar-link:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.active{
+    transform: translate(0, 0);
+    opacity: 1;
+}
+@media (max-width: 768px) {
+  .sidebar-link:hover:before,
+  .sidebar-link:hover:after {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+}
+
+.sidebar-time #sidebarTime  {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #e9ecf8c0;
+}
+
+.sidebar-time #sidebarWeeks {
+  text-decoration: none;
+  font-size: 12px;
+  color: #e9ecf8c0;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }

@@ -2,7 +2,6 @@
 @import url(components/navbar-coins.css);
 @import url(components/navbar.css);
 @import url(components/sidebar.css);
-@import url(templates/home.css);
 
 /* Globalne Atrybuty */
 * {
@@ -17,6 +16,7 @@ a {
 body,
 html {
   background: #222831 !important;
+  height: 100%;
 }
 
 li {
@@ -36,4 +36,11 @@ h6 {
   font-weight: 700;
 }
 
+ul , ol {
+  padding-left: 0 !important;
+}
 
+.main {
+  position: relative;
+  top: 120px;
+}
