@@ -9,17 +9,20 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  letter-spacing: 0.1rem;
   box-sizing: border-box;
 }
 a {
   text-decoration: none;
 }
+body {
+  height: 100%;
+  min-height: 100%;
+}
 body,
 html {
   background: #222831 !important;
-  height: 100%;
 }
-
 li {
   list-style: none;
 }
@@ -42,6 +45,5 @@ ul , ol {
 }
 
 .main {
-  position: relative;
-  top: 120px;
+  width: 100%;
 }
