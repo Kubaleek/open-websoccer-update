@@ -1,6 +1,7 @@
 .sidebar {
   background: #323b49;
   position: relative;
+  border-radius: 0px 50px 0px 0px;
   border: 2px solid #c3c6cfa4;
 }
 .sidebar-logo img  {
