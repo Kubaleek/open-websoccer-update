@@ -52,11 +52,16 @@
           </div>
         </div>
       </nav>
+      <nav class="navbar navbar-menu navbar-expand-lg py-3 d-lg-none d-md-flex justify-content-center align-items-center">
+        <button type="button" onclick="sidebarToggle()" class="navbar-toggler" id="sidebarToggle" data-bs-toggle="collapse" data-bs-target="#sidebar-menu" aria-controls="sidebar-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>    
     </header>
     <main class="main pt-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xl-3 col-lg-4 sidebar d-none d-lg-block">
+          <div class="col-xl-3 col-lg-4 d-none d-lg-block sidebar" id="sidebar">
             <div class="sidebar-logo">
               <img src="../img/home_bg22.jpg" alt="logo" />
             </div>
@@ -73,7 +78,7 @@
                 <p>30 <span>Coins</span>
                 </p>
               </div>
-              <hr class="sidebar-line my-3" />
+              <hr class="sidebar-line my-3">
               <div class="sidebar-menu">
                 <ul class="sidebar-list">
                   <li class="sidebar-item">
@@ -122,6 +127,13 @@
                   <span id="sidebarWeeks"></span>
                 </p>
               </div>
+            </div>
+          </div>
+          <div class="d-lg-none"> 
+            <div class="sidebar-mobile">
+              <button type="button" onclick="sidebarToggle()" class="navbar-toggler" id="sidebarToggle">
+                <i class="bi bi-x-lg sidebar-mobile-icon"></i>
+              </button>
             </div>
           </div>
         </div>

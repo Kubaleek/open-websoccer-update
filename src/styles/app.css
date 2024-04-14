@@ -1,7 +1,9 @@
 @import url(components/navbar-button.css);
+@import url(components/navbar-menu.css);
 @import url(components/navbar-coins.css);
 @import url(components/navbar.css);
 @import url(components/sidebar.css);
+@import url(components/sidebar-mobile.css);
 @import url(templates/games.css);
 
 /* Globalne Atrybuty */

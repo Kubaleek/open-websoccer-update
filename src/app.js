@@ -1,3 +1,8 @@
+function sidebarToggle() {
+    let sidebar = document.querySelector('.sidebar-mobile'); 
+    sidebar.classList.toggle('show'); 
+}
+
 function updateTime() {
     let today = new Date();
     let hours = addZero(today.getHours());

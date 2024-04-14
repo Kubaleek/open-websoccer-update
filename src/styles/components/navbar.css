@@ -1,7 +1,6 @@
 .header {
   position: relative;
   z-index: 1;
-  overflow: hidden;
 }
 .header-content {
   height: 200px;
@@ -100,17 +99,6 @@
 .header .navbar {
   z-index: 3;
   background: #323b49 ;
-}
-.header nav .navbar-toggler {
-  color: #2d333e;
-  border-color: rgb(45, 51, 62);
-}
-.navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(45, 51, 62)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
-}
-.header nav .navbar-toggler:focus {
-  box-shadow: none;
-  outline: none;
 }
 .header nav .navbar-brand {
   font-size: 27px;
