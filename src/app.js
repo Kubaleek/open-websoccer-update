@@ -10,6 +10,7 @@ function updateTime() {
     let seconds = addZero(today.getSeconds());
     let time = hours + ":" + minutes + ":" + seconds;
     sidebarTime.innerHTML = time;
+    sidebarTimeMobile .innerHTML = time;
 }
 
 function addZero(i) {
@@ -31,5 +32,6 @@ function updateWeekNumber() {
     let currentDate = new Date();
     let weekNumber = getWeekNumber(currentDate);
     sidebarWeeks.innerHTML = `Tydzień ${weekNumber}`;
+    sidebarWeeksMobile.innerHTML = `Tydzień ${weekNumber}`;
 }
 updateWeekNumber();

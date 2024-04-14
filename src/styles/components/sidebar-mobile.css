@@ -10,9 +10,11 @@
       position: absolute;
       top: 0;
       left: 0;
+      overflow: hidden;
       bottom: 0;
       right: 0;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
@@ -27,6 +29,16 @@
       transform: translateX(0);
     }
   }
+.sidebar-mobile-logo img {
+    position: relative;
+    background: #222831;
+    /* top: -60px; */
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border: 2px solid #e9ecf8;
+    border-radius: 50%;
+}
 .sidebar-mobile-icon {
     font-size: 30px;
     position: absolute;
@@ -34,4 +46,22 @@
     top: 0;
     right: 0;
     color: #e9ecf8;
+}
+
+.sidebar-time #sidebarTimeMobile {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #e9ecf8c0;
+  }
+
+.sidebar-time #sidebarWeeksMobile {
+    text-decoration: none;
+    font-size: 12px;
+    color: #e9ecf8c0;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
 }
