@@ -7,14 +7,19 @@
     color: #e9ecf8;
 }
 .match-title {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 600;
     display: inline-block;
     color: #e9ecf8e0;
     text-transform: uppercase;
     position: relative;
 }
-
+@media (max-width: 1028px){
+    .match-title {
+        font-size: 22px;
+        text-transform: capitalize;
+    }
+}
 .match-title::before {
     content: "";
     width: 100%;
@@ -52,7 +57,9 @@
     font-weight: 500;
     text-align: center;
 }
-
+.match-result {
+    font-size: 28px;
+}
 .match-line {
     width: 100px;
     margin: 15px auto;
