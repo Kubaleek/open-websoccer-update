@@ -4,7 +4,7 @@
 @import url(components/navbar.css);
 @import url(components/sidebar.css);
 @import url(components/sidebar-mobile.css);
-@import url(templates/games.css);
+@import url(templates/blocks.css);
 
 /* Globalne Atrybuty */
 * {
