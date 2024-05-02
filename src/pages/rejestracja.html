@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="../styles/kontakt.css">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="../styles/rejestracja.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -36,33 +36,10 @@
         </nav>
     </header>
     <main class="main">
-      <section class="hero d-flex justify-content-center align-items-center mb-4" id="hero">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="content">
-                <h1 class="title text-center">Kontakt z Administracją</h1>
-                <hr class="line w-25 mx-auto">
-                <p class="text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum at debitis rem voluptatem assumenda quis, 
-                  sapiente eius voluptate perferendis deserunt nisi tempore quos dicta, possimus sequi. Quam nisi vero tempora.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="hero-image d-none d-lg-block">
-                <img src="../img/players.png" alt="players" class="img-fluid banner">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact d-flex justify-content-center align-items-center my-5" id="register">
+    <section class="register d-flex justify-content-center align-items-center mb-5" id="register">
         <div class="container d-flex justify-content-center align-items-center">
-          <div class="form-contact px-4 py-4 my-5">
-            <div class="circle d-none d-md-block"></div>
-            <div class="circle d-none d-md-block"></div>
-            <h2 class="form-title mb-3">Skontaktuj się z Administracją</h4>
+          <div class="form-register px-4 py-4 my-5">
+            <h4 class="form-title mb-3">Dołącz do FootballTop</h4>
             <hr class="line w-25 mx-auto">
             <form method="post">
               <div class="form-group mb-3">
@@ -73,17 +50,33 @@
                 <label class="form-label" for="email">Email</label>
                 <input type="email" id="email" class="form-control" required autocomplete="off" placeholder="Email">
               </div>
-              <div class="form-group mb-4">
-                <label class="form-label" for="message">Wiadomość</label>
-                <textarea name="message" class="form-control" id="message" cols="30" rows="10" autocomplete="off" required placeholder="Wiadomość"></textarea>
+              <div class="form-group mb-3">
+                <label class="form-label" for="repeat_email">Powtórz Email</label>
+                <input type="email" id="repeat_email" class="form-control" required autocomplete="off" placeholder="Powtórz Email">
               </div>
-              <button type="button" class="btn btr w-100">Wyślij Wiadomość</button>
+              <div class="form-group mb-3">
+                <label class="form-label" for="password">Hasło</label>
+                <input type="password" id="password" class="form-control" required autocomplete="off" placeholder="Hasło">
+              </div>
+              <div class="form-group mb-3">
+                <label class="form-label" for="repeat_password">Powtórz Hasło</label>
+                <input type="password" id="repeat_password" class="form-control" required autocomplete="off" placeholder="Powtórz Hasło">
+              </div>
+              <div class="form-group mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="rules" required autocomplete="off">
+                  <label class="form-check-label" for="rules">
+                    Zapoznałem się z <a href="regulamin.html">regulaminem</a> i akceptuje.
+                  </label>
+                </div>
+              </div>
+              <button type="button" class="btn btr w-100">Zakończ Rejestrację</button>
             </form>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer mt-5 p-3">
+    <footer class="footer mt-5 px-2">
       <div class="container">
         <div class="row gx-0 gx-lg-5 mb-3">
           <div class="col-lg-6">
@@ -111,5 +104,9 @@
         </div>
       </div>
     </footer>
+    <script>
+      let date = new Date();
+      year.innerHTML = date.getFullYear();
+    </script>
 </body>
 </html>

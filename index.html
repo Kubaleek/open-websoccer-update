@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Strona Główna</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
@@ -24,11 +24,8 @@
                   <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item me-3">
-                  <a href="" class="nav-link">Polityka Prywatności</a>
-                </li>
-                <li class="nav-item me-3">
-                  <a href="" class="nav-link">Konto</a>
-                </li>
+                  <a href="src/pages/rejestracja.html" class="nav-link">Rejestracja</a>
+                </li>    
                 <li class="nav-item">
                   <a href="src/pages/kontakt.html" class="nav-link">Kontakt</a>
                 </li>
@@ -144,45 +141,6 @@
           </div>
         </div>
       </section>
-      <section class="register d-flex justify-content-center align-items-center mt-5 mb-5" id="register">
-        <div class="container d-flex justify-content-center align-items-center">
-          <div class="form-register px-4 py-4 my-5">
-            <h4 class="form-title mb-3">Dołącz do FootballTop</h4>
-            <hr class="line w-25 mx-auto">
-            <form method="post">
-              <div class="form-group mb-3">
-                <label class="form-label" for="nick">Nick</label>
-                <input type="text" id="nick" class="form-control" required autocomplete="off" placeholder="Nick">
-              </div>
-              <div class="form-group mb-3">
-                <label class="form-label" for="email">Email</label>
-                <input type="email" id="email" class="form-control" required autocomplete="off" placeholder="Email">
-              </div>
-              <div class="form-group mb-3">
-                <label class="form-label" for="repeat_email">Powtórz Email</label>
-                <input type="email" id="repeat_email" class="form-control" required autocomplete="off" placeholder="Powtórz Email">
-              </div>
-              <div class="form-group mb-3">
-                <label class="form-label" for="password">Hasło</label>
-                <input type="password" id="password" class="form-control" required autocomplete="off" placeholder="Hasło">
-              </div>
-              <div class="form-group mb-3">
-                <label class="form-label" for="repeat_password">Powtórz Hasło</label>
-                <input type="password" id="repeat_password" class="form-control" required autocomplete="off" placeholder="Powtórz Hasło">
-              </div>
-              <div class="form-group mb-3">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="rules" required autocomplete="off">
-                  <label class="form-check-label" for="rules">
-                    Zapoznałem się z <a href="src/pages/regulamin.html">regulaminem</a> i akceptuje.
-                  </label>
-                </div>
-              </div>
-              <button type="button" class="btn btr w-100">Zakończ Rejestrację</button>
-            </form>
-          </div>
-        </div>
-      </section>
       <div class="login-modal">
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
           <div class="modal-dialog modal-dialog-centered">
@@ -209,7 +167,7 @@
         </div>
       </div>
     </main>
-    <footer class="footer mt-5 px-2">
+    <footer class="footer mt-5 p-3">
       <div class="container">
         <div class="row gx-0 gx-lg-5 mb-3">
           <div class="col-lg-6">
